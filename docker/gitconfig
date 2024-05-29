@@ -1,0 +1,6 @@
+[user]
+	email = lux@ipt.br
+	name = Lux Kernel Team
+[safe]
+	directory = /lux-kernel/src/linux
+	directory = .

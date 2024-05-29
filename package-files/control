@@ -1,0 +1,13 @@
+Source: lux-kernel
+Priority: optional
+Maintainer: Instituto de Pesquisas Tecnologicas <lux@lenovo.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.5.1
+Homepage: <insert the upstream URL, if relevant>
+Rules-Requires-Root: no
+
+Package: lux-kernel
+Architecture: amd64
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: Implement the lux-kernel package

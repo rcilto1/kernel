@@ -1,0 +1,23 @@
+From: Lux Kernel Team <lux@ipt.br>
+Date: Fri, 15 Mar 2024 15:12:03 -0300
+Subject: [PATCH] Add Lenovo BR S145-V14G2 ITL to elan-i2c-ids.h
+
+---
+ include/linux/input/elan-i2c-ids.h | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/include/linux/input/elan-i2c-ids.h b/include/linux/input/elan-i2c-ids.h
+index 51cca17ee..dd30c74cf 100644
+--- a/include/linux/input/elan-i2c-ids.h
++++ b/include/linux/input/elan-i2c-ids.h
+@@ -74,6 +74,7 @@ static const struct acpi_device_id elan_acpi_id[] = {
+ 	{ "ELAN0636", 0 }, /* Lenovo V1415-Dali */
+ 	{ "ELAN0637", 0 }, /* Lenovo V1415-IGLR */
+ 	{ "ELAN1000", 0 },
++	{ "ELAN4000", 0 }, /* Lenovo BR S145-V14G2 ITL*/
+ 	{ }
+ };
+ 
+-- 
+2.43.0
+
