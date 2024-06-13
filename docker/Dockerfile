@@ -28,7 +28,7 @@ RUN apt-get update && \
 	kmod \
 	cpio \
         git \
-	liblz4-tool \
+#	liblz4-tool \
 	lz4 \
 	lzop \
 	rsync \

@@ -1,0 +1,5 @@
+src/linux-headers-*
+src/linux-image-*
+src/linux-libc-*
+src/linux-upstream*
+*.deb
